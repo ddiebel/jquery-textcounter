@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Textcounter Demo</title>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $('#comment').countChars({counterElement : "#textareacount b"});
+        });
+    </script>
+</head>
+<body>
+
+        <form name="test">
+            <textarea maxlength="255" placeholder="" id="comment"></textarea>
+            <span id="textareacount">left: <b>255</b></span>
+        </form>
+
+<script type="text/javascript" src="jquery.textcounter.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+"name": "textcounter",
+"title": "jQuery Textarea Counter",
+"description": "Counts the characters of a textarea element bases on the mexlength attribute and shows them to the user.",
+"keywords": [
+"datepicker",
+"month",
+"year"
+],
+"version": "1.0.0",
+"author": {
+"name": "Dirk Diebel",
+"url": "https://github.com/ddiebel/jquery-textcounter"
+},
+"licenses": [
+{
+"type": "MIT",
+"url": "http://opensource.org/licenses/MIT"
+}
+],
+"bugs": "https://github.com/ddiebel/jquery-textcounter/issues",
+"homepage": "https://github.com/ddiebel/jquery-textcounter",
+"docs": "https://github.com/ddiebel/jquery-textcounter",
+"download": "https://github.com/ddiebel/jquery-textcounter",
+"dependencies": {
+"jquery": ">=1.4"
+}
+}
